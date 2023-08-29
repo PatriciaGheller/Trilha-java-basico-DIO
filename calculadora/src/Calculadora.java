@@ -18,6 +18,6 @@ public class Calculadora {
      * @return int o resultado deste método é a somo dos dois números.
      */
     public int somar(int numeroUm, int numeroDois){
-       return numeroUm +numeroDois;
+       return numeroUm + numeroDois;
     }
 }
