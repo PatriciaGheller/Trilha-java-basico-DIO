@@ -3,10 +3,10 @@ public class ExemploBreakContinue {
   public static void main(String[] args) {
     for(int numero = 1; numero <=5; numero++){
       if (numero == 3)
-      break;
+      continue;
 
       System.out.println(numero);
-      //parou a iteração no 3
+      //imprimiu todos de 1 à 5 menos o três
     }
   }
 }
